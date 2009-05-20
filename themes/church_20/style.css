@@ -666,7 +666,7 @@ blockquote {
 	padding: 10px;
 	border: 1px solid #DDDDDD;
 	}
-	
+
 .postarea p {
 	margin: 0px;
 	padding: 0px 0px 15px 0px;
@@ -1372,3 +1372,16 @@ img.alignleft {
 	margin: 0px;
 	padding: 0px;
 	}
+#content .cat_video h1{
+	padding-left:0px;
+	padding-right:0px;
+	padding-top:14px;
+	padding-bottom:14px;
+}
+.cat_video {
+	float:left;
+  padding:10px 0 10px 22px;
+	width:430px;
+  }
+
+

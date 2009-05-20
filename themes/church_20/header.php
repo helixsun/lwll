@@ -104,7 +104,8 @@ if (window.attachEvent) window.attachEvent("onload", sfHover);
 <div id="subnavbar">
 
 	<ul id="subnav">
-		<?php wp_list_categories('sort_column=name&title_li=&depth=4'); ?>
+		<?php $cat_video_id = $wpdb->get_var("SELECT term_ID FROM $wpdb->terms WHERE name='video'");?>
+		<?php wp_list_categories('sort_column=name&title_li=&depth=4&exclude=video'); ?>
 	</ul>
 	
 </div>
