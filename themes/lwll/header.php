@@ -34,7 +34,7 @@
 			<div id="header">
 				<div class="h_logo">
 						<div class="left">
-						<img alt="" src="<?php bloginfo('template_directory'); ?>/images/logo.jpg" /><br />
+						<img alt="" src="<?php bloginfo('template_directory'); ?>/images/logo_copy.png" /><br />
 					</div>
 					<div class="right">
 						<a href="#">RSS</a>				</div>
@@ -47,10 +47,10 @@
 								<ul>
 									<li><a href="/">首页</a></li>
 									<li><a href="/shipin">在线视频</a></li>
-									<li><a href="index-2.html">Products</a></li>
-									<li><a href="index-3.html">Clients</a></li>
-									<li><a href="index-4.html">Services</a></li>
-									<li class="last"><a href="/content">公司介绍</a></li>
+									<li><a href="jieshao">世界通介绍</a></li>
+									<li><a href="kehu">客户交流</a></li>
+									<li><a href="chanpin">产品中心</a></li>
+									<li class="last"><a href="/content">联系我们</a></li>
 								</ul>
 								<br class="clear" />
 							</div>
@@ -60,11 +60,8 @@
 				<div class="content">
 					<img alt="" src="<?php bloginfo('template_directory'); ?>/images/header_t1.jpg" /><br />
 					<img alt="" src="<?php bloginfo('template_directory'); ?>/images/header_t2.jpg" /><br />
-					<div class="text">
-						 世界通LINK WORLD软件采用了尖端软件压缩技术，可对语音、视频、图像等各种电子文件进行高倍压缩，最高可压缩数百倍
-						.<br />
-					</div>
-					<a href="#"><img alt="" src="<?php bloginfo('template_directory'); ?>/images/header_click_here.jpg" /></a><div class="clear"></div>
+             <?php showhomeheader(); ?>
+					<div class="clear"></div>
 				</div>
 			</div>
 			<!--header end-->
