@@ -25,7 +25,15 @@
 
 <?php wp_head(); ?>
 </head>
-<?php if(is_page('content')){$id = 'index_5';}elseif(is_home()){$id = 'index';}elseif(is_page('shipin')){$id = 'index_1';}?>
+<?php if(is_page('content')){$id = 'index_5';
+}elseif(is_home()){$id = 'index';
+}elseif(is_page('shipin')){$id = 'index_1';
+}elseif(is_page('jieshao')){$id = 'index_2';
+}elseif(is_page('kehu')){$id = 'index_3';
+}elseif(is_page('chanpin')){$id = 'index_4';
+	
+}
+?>
 			
 <body id="<?php echo $id; ?>" onload="new ElementMaxHeight();">
 	<div id="header_tall">
